@@ -1,0 +1,20 @@
+
+.horizontal-snap {
+    margin: auto;
+    border: solid black 2px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.horizontal-snap > a {
+  scroll-snap-align: center;
+}
+
+.horizontal-snap img {
+  width: 30%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
