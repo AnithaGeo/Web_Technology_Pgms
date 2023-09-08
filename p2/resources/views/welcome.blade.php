@@ -8,9 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-<div class="bg-success">
-    <button class="btn btn-primary">Submit</button>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+    <div class="container">
+        <h1 class="mb-5">Forms & Input</h1>
+  
+        <!-- Basic Form -->
+        <form action="">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control"></input>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control"></input>
+          </div>
+          <input type="submit" value="Login" class="btn btn-primary"></input>
+        </form>
+        <br /><br />  
+    </div>
+      <div style="margin-top: 350px"></div>
+  
+      <script src="./assets/js/bootstrap.bundle.min.js"></script></body>
 </html>
